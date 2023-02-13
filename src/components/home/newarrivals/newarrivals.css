@@ -1,0 +1,35 @@
+
+
+
+
+
+.newarrival_card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+    text-align: center;
+}

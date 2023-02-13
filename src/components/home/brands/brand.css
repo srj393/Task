@@ -1,0 +1,18 @@
+ .brand-container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .brand-img {
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .brand-img:hover {
+    transform: scale(1.1);
+  }
+   
+
+   

@@ -1,0 +1,17 @@
+
+.category{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardsss{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    
+    align-items:end;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid black;
+}
+

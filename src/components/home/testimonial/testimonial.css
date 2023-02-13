@@ -1,0 +1,20 @@
+
+
+.testimonial_head{
+    text-align: center;
+}
+
+.testimonial_img{
+    margin-top: 100px;
+  
+}
+
+.testimonial_img img{
+    max-height: 8rem;
+    max-width: 8rem;
+    border-radius: 20rem;
+}
+
+.testimonial_img p{
+    color:aliceblue;
+}

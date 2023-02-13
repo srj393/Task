@@ -1,0 +1,26 @@
+
+.benifits{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+}
+
+.benifits_shipping{
+    display: flex;
+    
+}
+
+.benifits_Support{
+    display: flex;
+}
+
+.benifits_return{
+    display: flex;
+}
+
+.benifits_payment{
+    display: flex;
+}

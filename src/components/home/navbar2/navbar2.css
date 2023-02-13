@@ -1,0 +1,22 @@
+.nav2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav2_Links a{
+   margin: 10px;
+   text-decoration:none;
+   color:grey;
+}
+
+
+.nav2_right a{
+    margin: 10px;
+    font-size: 30px;
+    
+    text-decoration:none;
+    color:lightsalmon;
+}
