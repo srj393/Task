@@ -2,6 +2,7 @@
 
 .testimonial_head{
     text-align: center;
+    margin-top: 20px;
 }
 
 .testimonial_img{
@@ -15,6 +16,3 @@
     border-radius: 20rem;
 }
 
-.testimonial_img p{
-    color:aliceblue;
-}

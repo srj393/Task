@@ -1,0 +1,6 @@
+.vertical_slider{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}

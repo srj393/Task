@@ -3,9 +3,9 @@
 
 
 .newarrival{
-
+    display: flex;
+    margin-left: 20px;
    
- 
     
 }
 
@@ -17,7 +17,7 @@
     display: flex;          /* ADD */
     flex-direction: column;
     position: relative;
-    
+
   
     
 }

@@ -4,8 +4,8 @@ import './footer.css'
 
 const Footers = () => {
   return (
-    <>
-    <footer>
+
+    <div className='main'>
       
       <div className="footer-container">
         <div className="footer-section">
@@ -53,16 +53,20 @@ const Footers = () => {
          
           <div className="social-media-buttons">
             <a href="#">
-              <FaFacebookSquare />
+              <FaFacebookSquare
+              size={30} />
             </a>
             <a href="#">
-              <FaTwitterSquare />
+              <FaTwitterSquare
+              size={30} />
             </a>
             <a href="#">
-              <FaInstagram />
+              <FaInstagram
+              size={30} />
             </a>
             <a href="#">
-              <FaLinkedin />
+              <FaLinkedin
+              size={30} />
             </a>
           </div>
           
@@ -71,7 +75,7 @@ const Footers = () => {
        
       </div>
       <div className="newsletter-section">
-      <h3>Sign Up To Newsletter</h3>
+      <h3 style={{marginLeft:'40px'}}>Sign Up To Newsletter</h3>
       <form className="newsletter-form">
         <input type="email" placeholder="Email" />
         <button type="submit">Subscribe</button>
@@ -86,9 +90,9 @@ const Footers = () => {
 
      
       
-    </footer>
+    </div>
     
-    </>
+   
   );
 };
 

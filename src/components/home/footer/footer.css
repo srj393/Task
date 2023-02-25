@@ -1,14 +1,18 @@
+
+
+
 .footer-container {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    background-color: #333;
-    color: #fff;
+    background-color: #f7f7f7;
+
   }
   
   .footer-section {
     width: 30%;
     text-align: left;
+    margin-left: 40px;
   }
   
   .contact-details {
@@ -27,7 +31,7 @@
   
   .contact-details li svg {
     margin-right: 10px;
-    color: #fff;
+   
   }
   
   .information-links {
@@ -36,37 +40,46 @@
     padding: 0;
     display: flex;
     flex-direction: column;
+   
   }
   
   .information-links li {
     margin-bottom: 10px;
+    
   }
   
   .social-media-buttons {
     display: flex;
+    
   }
   
   .social-media-buttons a {
     margin-right: 10px;
-    color: #fff;
+    color: lightgray;
+  
   }
   
   .newsletter-section {
     padding: 30px;
-    background-color: #333;
-    color: #fff;
-    text-align: left;
+    background-color: #f7f7f7;
+  
+   
+    
   }
   
   .newsletter-form {
     display: flex;
    
     align-items: left;
+    margin-left: 40px;
   }
   
   .newsletter-form input {
   
     margin-bottom: 20px;
+    border: none;
+   
+    
   }
   
   .newsletter-form button {
@@ -76,6 +89,7 @@
     border: none;
     cursor: pointer;
     margin-left: 10px;
+    margin-bottom: 10px;
   }
 
 .copyright{

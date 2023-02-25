@@ -1,5 +1,7 @@
 import Card from 'react-bootstrap/Card';
-import img1 from '../../../assets/img/4.jpg'
+import img1 from '../../../assets/img/blog2-1110x700.jpg'
+import img2 from '../../../assets/img/blog3-1110x700.jpg'
+import img3 from '../../../assets/img/blog4-1110x700.jpg'
 import './blog.css'
 
 function Blog() {
@@ -9,9 +11,9 @@ function Blog() {
              
         <div className='blog_card'>  
            
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ margin:'10px'  }}>
       <div className='blog_cardImg'>
-      <Card.Img variant="top" src={img1} style={{width:'250px',height:'257px'}}/>
+      <Card.Img variant="top" src={img1} style={{width:'300px',height:'200px'}}/>
       </div>
       <div>
         <h3>Quisquw Egestas</h3>
@@ -20,10 +22,10 @@ function Blog() {
      
     </Card>
     
-    <Card style={{ width: '18rem' }}>
+    <Card style={{  margin:'10px' }}>
      
     <div className='blog_cardImg'>
-      <Card.Img variant="top" src={img1} style={{width:'250px',height:'257px'}}/>
+      <Card.Img variant="top" src={img2} style={{width:'300px',height:'200px'}}/>
       </div>
       <div>
         <h3>Post with Gallery</h3>
@@ -31,10 +33,10 @@ function Blog() {
      
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ margin:'10px' }}>
      
     <div className='blog_cardImg'>
-      <Card.Img variant="top" src={img1} style={{width:'250px',height:'257px'}}/>
+      <Card.Img variant="top" src={img3} style={{width:'300px',height:'200px'}}/>
       </div>
       <div >
         <h3>Maecenas Ultricies</h3>

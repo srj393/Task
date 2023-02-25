@@ -1,13 +1,15 @@
 
 .category{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    
 }
 
 .cardsss{
     width: 250px;
     height: 300px;
     display: flex;
+    margin: 10px;
     
     align-items:end;
     font-size: 1.5rem;
@@ -15,3 +17,33 @@
     border: 1px solid black;
 }
 
+/* .cardsss_heading{
+    padding-left: 10px;
+    padding-bottom: 7px;
+} */
+
+.cardsss:hover{
+transform: scale(1.1);
+}
+
+
+.cardsss_heading{
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-weight: 200;
+  
+    transition: height 1s linear 1s;
+}
+
+.cardsss_heading:hover {
+    height: 50px;
+  }
+
+
+  .cardsss_subheading{
+    
+    font-size: 15px;
+     color: 'gray';
+     
+     
+  }

@@ -7,24 +7,34 @@ import NewArrivals from './newarrivals/NewArrivals'
 import Slider from './slider/Slider'
 import data from '../../assets/data/data'
 import Category from './newarrivals/category/Category'
-import Footer from './footer/Footers'
+
 import Testimonial from './testimonial/Testimonial'
 import Blog from './blog/Blog'
 import Footers from './footer/Footers'
 import Brand from './brands/Brands'
+import Product from './products/Product'
+import Slider2 from './slider/slider2/Slider2'
+
 
 
 
 const Home = () => {
   const cards = data.map(item => {
     return (
+      <>
         <NewArrivals
             key={item.id}
             img={item.coverImg}
            
             title={item.title}
             price={item.price}
+            openSpots={item.openSpots}
         />
+
+
+       
+
+</>
     )
 })        
 
@@ -32,15 +42,18 @@ const Home = () => {
   return (
   <>
   <NavBar1 />
+ <div>
   <NavBar2 />
+  </div>
  <Slider />  
+ {/* <Slider2 /> */}
   <Benifits />
    <div>
     <h1 style={{textAlign:'center'}}>New Arrivals</h1>
   <section style={{  display: 'flex',
-    justifyContent:'space-evenly',
+   
     flexWrap: 'nowrap',
-    gap: '20px',
+    // gap: '5px',
     overflowX: 'auto'}}>
                 {cards}
   </section>
@@ -48,9 +61,27 @@ const Home = () => {
   <Category />
   
   </div> 
-  <Blog />
-  <Testimonial />
 
+
+
+
+  <div>
+    <h1 style={{textAlign:'center'}}>Our Products</h1>
+  <section style={{  display: 'flex',
+  
+   
+    flexWrap: 'nowrap',
+    // gap: '15px',
+    overflowX: 'auto'}}>
+                {cards}
+  </section>
+
+ 
+  
+  </div> 
+ 
+ <Testimonial /> 
+  <Blog />
   <Brand />
   <Footers />
 

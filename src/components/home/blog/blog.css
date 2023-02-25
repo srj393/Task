@@ -7,10 +7,13 @@
 
 .blog_card{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     cursor: pointer;
+   
 }
 
 .blog_cardImg:hover {
     transform: scale(1.1);
 }
+.blog_cardImg{
+  }
